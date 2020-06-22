@@ -22,10 +22,10 @@ convenience with economy so that it does not break the game experience.
 
 ## Use
 
-1. Install
-   1. **TODO** Download [zip file][zipfile] (`trzmc.zip`)
+1. **Install**
+   1. Download `trzmc.zip` from the most recent [release][releases]
    2. [Tutorials/Installing a data pack – Official Minecraft Wiki][install]
-2. Use
+2. **Use**
    1. Within Minecraft, stand at the southwest corner of where you'd like the
       merchant tent built
    2. Run the build tent function:
@@ -35,8 +35,8 @@ convenience with economy so that it does not break the game experience.
       - Please try this in a new world first, so you do not accidentally
         destory something you care about.
 
+[releases]: https://github.com/TimidRobot/trzmc/releases
 [install]: https://minecraft.gamepedia.com/Tutorials/Installing_a_data_pack "Tutorials/Installing a data pack – Official Minecraft Wiki"
-[zipfile]: https://github.com/TimidRobot/trzmc/archive/main.zip
 
 
 ## Notes
@@ -81,7 +81,7 @@ Jira](https://bugs.mojang.com/browse/MC-132938).
 
 ### Tools
 
-- **TODO**: vim plugin
+- [vim-mcfunction - Vim Awesome](https://vimawesome.com/plugin/vim-mcfunction)
 
 
 ## License
