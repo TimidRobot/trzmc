@@ -39,6 +39,14 @@ convenience with economy so that it does not break the game experience.
 [install]: https://minecraft.gamepedia.com/Tutorials/Installing_a_data_pack "Tutorials/Installing a data pack – Official Minecraft Wiki"
 
 
+## Screenshots
+
+
+- ![Screenshot: Tent Exterior](screenshots/tent_exterior.png)
+- ![Screenshot: Tent Left Interior](screenshots/tent_left_interior.png)
+- ![Screenshot: Tent Right Interior](screenshots/tent_right_interior.png)
+
+
 ## Notes
 
 Villagers can not be configured to buy data tags (ex. `#minecraft:logs`). See
