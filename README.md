@@ -7,9 +7,9 @@ Timid Robot's Minecraft Java Edition Data Pack
 
 I wanted to be able to create new Minecraft worlds without having to grind and
 grind grind, all over again, in Survival. This vanilla Java Edition
-datapack can be used to create a vendor tent. The vendor tent offers top tier
+datapack can be used to create a vendor tent. The merchant tent offers top tier
 equipment and access to a variety of resources. I have tried to balance
-convenience with economy so that it does not "break" the game experience.
+convenience with economy so that it does not break the game experience.
 
 
 ## Compatibility
@@ -20,13 +20,23 @@ convenience with economy so that it does not "break" the game experience.
 [javaed1152]: https://minecraft.gamepedia.com/Java_Edition_1.15.2
 
 
-## Install
-
-...
-
 ## Use
 
-...
+1. Install
+   1. **TODO** Download [zip file][zipfile] (`trzmc.zip`)
+   2. [Tutorials/Installing a data pack – Official Minecraft Wiki][install]
+2. Use
+   1. Within Minecraft, stand at the southwest corner of where you'd like the
+      merchant tent built
+   2. Run the build tent function:
+        ```
+        /function trz:build_tent
+        ```
+      - Please try this in a new world first, so you do not accidentally
+        destory something you care about.
+
+[install]: https://minecraft.gamepedia.com/Tutorials/Installing_a_data_pack "Tutorials/Installing a data pack – Official Minecraft Wiki"
+[zipfile]: https://github.com/TimidRobot/trzmc/archive/main.zip
 
 
 ## Notes
@@ -36,7 +46,9 @@ Villagers can not be configured to buy data tags (ex. `#minecraft:logs`). See
 Jira](https://bugs.mojang.com/browse/MC-132938).
 
 
-## References
+## Links
+
+### References
 
 - [Official Minecraft Wiki – The Ultimate Resource for Minecraft][mcwiki]
   - [Command Block][mcw-commandblock]
@@ -65,6 +77,11 @@ Jira](https://bugs.mojang.com/browse/MC-132938).
 [mcw-villager]: https://minecraft.gamepedia.com/Villager "Villager – Official Minecraft Wiki"
 [mcw-trading]: https://minecraft.gamepedia.com/Trading "Trading – Official Minecraft Wiki"
 [trading-image]: https://external-preview.redd.it/Mw20bv40laGHOGzbbSIkT38oGntla8xEdE_7r5HO2VY.png?auto=webp&s=189075d790b29f06caae4c14a66871f283c3a883
+
+
+### Tools
+
+- **TODO**: vim plugin
 
 
 ## License
