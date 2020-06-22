@@ -1,1 +1,8 @@
+# local dev
 zzz_localdev
+
+# release zip
+trzmc.zip
+
+# vim
+*.swp
