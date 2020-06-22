@@ -1,8 +1,8 @@
 scoreboard objectives add banner_facing dummy
 scoreboard objectives add banner_rotation dummy
-scoreboard objectives add build_debug dummy
+scoreboard objectives add construct_debug dummy
 
-#scoreboard players set #Var build_debug 1
+#scoreboard players set #Var construct_debug 1
 
 # Ground: Main
 fill ~1 ~-1 ~-1 ~17 ~-1 ~-19 stone
@@ -131,12 +131,12 @@ scoreboard players set #Var banner_rotation 15
 execute positioned ~12 ~1 ~-1 run function trz:tent/banner
 scoreboard players reset #Var banner_rotation
 
-# Build Debug
-execute if score #Var build_debug matches 1 run setblock ~0 ~0 ~0 purple_wool
-execute if score #Var build_debug matches 1 positioned ~8 ~1 ~-9 run function trz:tent/init
-execute if score #Var build_debug matches 1 run setblock ~8 ~-1 ~-10 purple_wool
-execute if score #Var build_debug matches 1 run setblock ~8 ~-1 ~-10 command_block{Command:"execute positioned ~-8 ~1 ~10 run function trz:tent/build",TrackOutput:0}
+# Construct Debug
+execute if score #Var construct_debug matches 1 run setblock ~0 ~0 ~0 purple_wool
+execute if score #Var construct_debug matches 1 positioned ~8 ~1 ~-9 run function trz:tent/init
+execute if score #Var construct_debug matches 1 run setblock ~8 ~-1 ~-10 purple_wool
+execute if score #Var construct_debug matches 1 run setblock ~8 ~-1 ~-10 command_block{Command:"execute positioned ~-8 ~1 ~10 run function trz:tent/construct",TrackOutput:0}
 
-scoreboard players reset #Var build_debug
+scoreboard players reset #Var construct_debug
 
 # scoreboard reset

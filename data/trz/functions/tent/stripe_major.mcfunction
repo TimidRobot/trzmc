@@ -3,8 +3,8 @@
 #
 # Major tent stripe is designed to look like it has been secured to beams
 #
-# magenta_carpet is killed prior to being placed as trz:tent_build clears space
-# and previously placed carpet "pop" and become loot items
+# magenta_carpet is killed prior to being placed as trz:tent_construct clears
+# space and previously placed carpet "pop" and become loot items
 setblock ~0 ~0 ~0 magenta_wool
 execute positioned ~1 ~1 ~0 run kill @e[distance=..2,type=item,nbt={Item:{id:"minecraft:magenta_carpet"}}]
 setblock ~1 ~1 ~0 magenta_carpet

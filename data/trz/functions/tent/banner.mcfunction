@@ -1,7 +1,7 @@
 # Create decorated banner
 
-# magenta_banner is killed prior to being placed as trz:tent_build clears space
-# and previously placed banners "pop" and become loot items
+# magenta_banner is killed prior to being placed as trz:tent_construct clears
+# space and previously placed banners "pop" and become loot items
 execute positioned ~0 ~0 ~0 run kill @e[distance=..3,type=item,nbt={Item:{id:"minecraft:magenta_banner"}}]
 
 # wall banner facing 2 (north)
