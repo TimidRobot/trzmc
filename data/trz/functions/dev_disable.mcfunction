@@ -1,3 +1,3 @@
-# vim: ft=conf:
 gamerule doDaylightCycle true
 weather clear
+gamemode survival @p

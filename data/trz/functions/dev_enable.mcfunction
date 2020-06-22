@@ -1,6 +1,6 @@
-# vim: ft=conf:
+reload
 time set day
 gamerule commandBlockOutput false
 gamerule doDaylightCycle false
 weather clear 1000000
-reload
+gamemode creative @p
