@@ -3,11 +3,37 @@
 Timid Robot's Minecraft Java Edition Data Pack
 
 
+## Overview
+
+I wanted to be able to create new Minecraft worlds without having to grind and
+grind grind, all over again, in Survival. This vanilla Java Edition
+datapack can be used to create a vendor tent. The vendor tent offers top tier
+equipment and access to a variety of resources. I have tried to balance
+convenience with economy so that it does not "break" the game experience.
+
+
+## Compatibility
+
+- developed on and tested against [Java Edition 1.15.2][javaed1152]
+  - works in both singleplayer and multiplayer
+
+[javaed1152]: https://minecraft.gamepedia.com/Java_Edition_1.15.2
+
+
+## Install
+
+...
+
+## Use
+
+...
+
+
 ## Notes
 
 Villagers can not be configured to buy data tags (ex. `#minecraft:logs`). See
 [[MC-132938] Villagers don't accept datapack tags within "buy" recipes nbt -
-Jira](https://bugs.mojang.com/browse/MC-132938)
+Jira](https://bugs.mojang.com/browse/MC-132938).
 
 
 ## References
@@ -39,3 +65,16 @@ Jira](https://bugs.mojang.com/browse/MC-132938)
 [mcw-villager]: https://minecraft.gamepedia.com/Villager "Villager – Official Minecraft Wiki"
 [mcw-trading]: https://minecraft.gamepedia.com/Trading "Trading – Official Minecraft Wiki"
 [trading-image]: https://external-preview.redd.it/Mw20bv40laGHOGzbbSIkT38oGntla8xEdE_7r5HO2VY.png?auto=webp&s=189075d790b29f06caae4c14a66871f283c3a883
+
+
+## License
+
+[![CC BY-SA 4.0 license button][cc-zero-png]][cc-zero]
+
+All rights waived. No warranty express or implied ([`LICENSE`](LICENSE)).
+- Code: [Unlicense][unlicense]
+- Content: [CC0 1.0 Universal][cc-zero]
+
+[cc-zero-png]: https://licensebuttons.net/p/zero/1.0/88x31.png
+[cc-zero]: http://creativecommons.org/publicdomain/zero/1.0/
+[unlicense]:https://unlicense.org/ "Unlicense.org » Unlicense Yourself: Set Your Code Free"
