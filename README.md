@@ -63,6 +63,7 @@ Jira](https://bugs.mojang.com/browse/MC-132938).
   - [Villager][mcw-villager]
     - [Trading][mcw-trading]
       - [Trading in Minecraft 1.14+ (Image)][trading-image]
+- Version number is CalVer Format: `YYYY.0M.Micro` (see https://calver.org/)
 
 [mcwiki]: https://minecraft.gamepedia.com/Minecraft_Wiki "Official Minecraft Wiki – The Ultimate Resource for Minecraft"
 [mcw-commandblock]: https://minecraft.gamepedia.com/Command_Block "Command Block – Official Minecraft Wiki"
