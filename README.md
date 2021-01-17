@@ -14,10 +14,11 @@ convenience with economy so that it does not break the game experience.
 
 ## Compatibility
 
-- developed on and tested against [Java Edition 1.15.2][javaed1152]
+- developed on and tested against [Java Edition 1.16.5][javaed1165]
+  - compatible with 1.16.*
   - works in both singleplayer and multiplayer
 
-[javaed1152]: https://minecraft.gamepedia.com/Java_Edition_1.15.2
+[javaed1165]: https://minecraft.gamepedia.com/Java_Edition_1.16.5
 
 
 ## Use
