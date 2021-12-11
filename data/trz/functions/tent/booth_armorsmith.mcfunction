@@ -15,7 +15,7 @@ fill ~1 ~3 ~-3 ~2 ~3 ~-3 cyan_carpet
 fill ~2 ~3 ~-1 ~2 ~3 ~-2 cyan_carpet
 
 # Decorations
-setblock ~0 ~0 ~0 cauldron[level=3]
+setblock ~0 ~0 ~0 water_cauldron[level=3]
 fill ~0 ~-1 ~0 ~1 ~-1 ~-2 gravel
 setblock ~0 ~0 ~-1 blast_furnace[facing=east,lit=true]
 setblock ~1 ~0 ~0 anvil[facing=east]

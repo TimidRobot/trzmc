@@ -13,7 +13,7 @@ setblock ~2 ~2 ~-3 stripped_dark_oak_log[axis=x]
 fill ~1 ~3 ~-1 ~1 ~3 ~-2 air
 
 # Decorations
-setblock ~0 ~0 ~0 cauldron[level=3]
+setblock ~0 ~0 ~0 water_cauldron[level=3]
 fill ~0 ~-1 ~0 ~1 ~-1 ~-2 gravel
 setblock ~0 ~0 ~-1 blast_furnace[facing=east,lit=true]
 setblock ~0 ~0 ~-2 grindstone[facing=north,face=floor]
