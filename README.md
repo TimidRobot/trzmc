@@ -14,11 +14,11 @@ convenience with economy so that it does not break the game experience.
 
 ## Compatibility
 
-- developed on and tested against [Java Edition 1.16.5][javaed1165]
-  - compatible with 1.16.*
+- developed on and tested against [Java Edition 1.18.1][javaed11181]
+  - compatible with 1.18.*
   - works in both singleplayer and multiplayer
 
-[javaed1165]: https://minecraft.gamepedia.com/Java_Edition_1.16.5
+[javaed11181]: https://minecraft.fandom.com/wiki/Java_Edition_1.18.1
 
 
 ## Use
@@ -72,7 +72,6 @@ Jira](https://bugs.mojang.com/browse/MC-132938).
   - [Villager][mcw-villager]
     - [Trading][mcw-trading]
       - [Trading in Minecraft 1.14+ (Image)][trading-image]
-- Version number is CalVer Format: `YYYY.0M.Micro` (see https://calver.org/)
 
 [mcwiki]: https://minecraft.gamepedia.com/Minecraft_Wiki "Official Minecraft Wiki – The Ultimate Resource for Minecraft"
 [mcw-commandblock]: https://minecraft.gamepedia.com/Command_Block "Command Block – Official Minecraft Wiki"
