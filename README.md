@@ -35,13 +35,14 @@ convenience with economy so that it does not break the game experience.
         ```
       - Please try this in a new world first, so you do not accidentally
         destory something you care about.
+      - Function commands require cheats to be enabled. You can temporarily
+        enable cheats with "Open to LAN"
 
 [releases]: https://github.com/TimidRobot/trzmc/releases
 [install]: https://minecraft.gamepedia.com/Tutorials/Installing_a_data_pack "Tutorials/Installing a data pack – Official Minecraft Wiki"
 
 
 ## Screenshots
-
 
 - ![Screenshot: Tent Exterior](screenshots/tent_exterior.png)
 - ![Screenshot: Tent Left Interior](screenshots/tent_left_interior.png)
